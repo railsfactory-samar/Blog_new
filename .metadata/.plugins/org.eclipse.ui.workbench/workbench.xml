@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="40" version="2.0">
+<workbenchAdvisor/>
+<window height="714" maximized="true" width="1212" x="-6" y="25">
+<fastViewData fastViewLocation="1024">
+<orientation position="512" view="com.aptana.terminal.views.terminal"/>
+<orientation position="512" view="com.aptana.samples.ui.SamplesView"/>
+<orientation position="512" view="com.aptana.browser.views.webbrowser"/>
+<orientation position="512" view="org.eclipse.ui.views.ProblemView"/>
+<orientation position="512" view="org.eclipse.ui.console.ConsoleView"/>
+<orientation position="512" view="com.aptana.ui.io.remoteview"/>
+<orientation position="512" view="org.eclipse.ui.views.ContentOutline"/>
+</fastViewData>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="116" y="26"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.aptana.ui.globalActionSet" itemType="typeToolBarContribution" x="164" y="26"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="124" y="26"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="44" y="26"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="84" y="26"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="76" y="26"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.aptana.editor.coffee" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.js" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.html" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.erb.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.ruby" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.sass" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.css" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1330060431622" focus="true" label="Workspace - Web">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="com.aptana.editor.erb.html" name="show.html.erb" partName="show.html.erb" title="show.html.erb" tooltip="/home/samar/blog/app/views/posts/show.html.erb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/samar/blog/app/views/posts/show.html.erb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="384" selectionTopPixel="151"/>
+</editor>
+<editor id="com.aptana.editor.erb.html" name="index.html.erb" partName="index.html.erb" title="index.html.erb" tooltip="/home/samar/blog/app/views/posts/index.html.erb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/samar/blog/app/views/posts/index.html.erb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="568" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="com.aptana.editor.ruby" name="posts_controller.rb" partName="posts_controller.rb" title="posts_controller.rb" tooltip="/home/samar/blog/app/controllers/posts_controller.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/samar/blog/app/controllers/posts_controller.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1151" selectionTopPixel="534"/>
+</editor>
+<editor id="com.aptana.editor.erb.html" name="_form.html.erb" partName="_form.html.erb | posts" title="_form.html.erb | posts" tooltip="/home/samar/blog/app/views/posts/_form.html.erb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/samar/blog/app/views/posts/_form.html.erb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.erb.html" name="_form.html.erb" partName="_form.html.erb | tags" title="_form.html.erb | tags" tooltip="/home/samar/blog/app/views/tags/_form.html.erb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/samar/blog/app/views/tags/_form.html.erb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.ruby" name="Gemfile" partName="Gemfile" title="Gemfile" tooltip="/home/samar/blog/Gemfile" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/samar/blog/Gemfile"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="163" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.ruby" name="development.rb" partName="development.rb" title="development.rb" tooltip="/home/samar/blog/config/environments/development.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/samar/blog/config/environments/development.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1943" selectionTopPixel="372"/>
+</editor>
+<editor id="com.aptana.editor.erb.html" name="application.html.erb" partName="application.html.erb" title="application.html.erb" tooltip="/home/samar/blog/app/views/layouts/application.html.erb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/samar/blog/app/views/layouts/application.html.erb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="15" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.ruby" name="application_controller.rb" partName="application_controller.rb" title="application_controller.rb" tooltip="/home/samar/blog/app/controllers/application_controller.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/samar/blog/app/controllers/application_controller.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="111" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.ruby" name="devise.rb" partName="devise.rb" title="devise.rb" tooltip="/home/samar/blog/config/initializers/devise.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/samar/blog/config/initializers/devise.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8873" selectionTopPixel="0"/>
+</editor>
+<editor id="com.aptana.editor.ruby" name="user.rb" partName="user.rb" title="user.rb" tooltip="/home/samar/blog/app/models/user.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/samar/blog/app/models/user.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="265" selectionTopPixel="0"/>
+</editor>
+</editors>
+<views>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="com.aptana.browser.views.webbrowser" partName="Web Browser">
+<viewState/>
+</view>
+<view id="com.aptana.terminal.views.terminal:stylesheets" partName="samar@client89: ~/blog/app/assets/stylesheets">
+<viewState>
+<title>samar@client89: ~/blog/app/assets/stylesheets</title>
+<workingDirectory>/home/samar/blog/app/assets/stylesheets</workingDirectory>
+</viewState>
+</view>
+<view id="com.aptana.terminal.views.terminal:135c3421f28" partName="samar@client89: ~/blog/app/assets/stylesheets">
+<viewState>
+<title>samar@client89: ~/blog/app/assets/stylesheets</title>
+<workingDirectory>/home/samar/blog/app/assets/stylesheets</workingDirectory>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="com.aptana.editor.ruby" activePerspective="com.aptana.ui.WebPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.aptana.ui.internal.WebPerspectiveFactory" id="com.aptana.ui.WebPerspective" label="Web"/>
+<alwaysOnActionSet id="com.aptana.browser.actionSet"/>
+<alwaysOnActionSet id="com.aptana.ruby.debug.ui.RubyDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="com.aptana.editor.common.presentation"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="com.aptana.js.debug.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.presentation"/>
+<alwaysOnActionSet id="com.aptana.ui.globalActionSet"/>
+<alwaysOnActionSet id="com.aptana.terminal.actionSet"/>
+<show_view_action id="com.aptana.browser.views.webbrowser"/>
+<show_view_action id="com.aptana.explorer.view"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="com.aptana.ui.io.remoteview"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="com.aptana.samples.ui.SamplesView"/>
+<show_view_action id="com.aptana.terminal.views.terminal"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<new_wizard_action id="com.aptana.ui.wizards.NewWebProject"/>
+<new_wizard_action id="com.aptana.ruby.core.ui.rubyProjectWizard"/>
+<new_wizard_action id="com.aptana.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="org.radrails.rails.ui.projectWizard"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="com.aptana.terminal.views.terminal:stylesheets"/>
+<view id="com.aptana.terminal.views.terminal:135c3421f28"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<fastViews>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.2996988"/>
+<view id="com.aptana.browser.views.webbrowser" ratio="0.6093991"/>
+</fastViews>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="com.aptana.explorer.view" label="LabelNotFound"/>
+<page content="com.aptana.ui.io.remoteview" label="LabelNotFound"/>
+<page content="com.aptana.terminal.views.terminal:135bd15b836" label="LabelNotFound"/>
+<page content="com.aptana.terminal.views.terminal:135be3383e4" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7495784" ratioLeft="889" ratioRight="297" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.19983137" ratioLeft="237" ratioRight="949" relationship="2" relative="left"/>
+<info folder="true" part="terminalArea" ratio="0.75" ratioLeft="468" ratioRight="156" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="com.aptana.terminal.views.terminal" label="LabelNotFound"/>
+<page content="org.eclipse.pde.runtime.LogView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1117d12" ratio="0.78206277" ratioLeft="872" ratioRight="243" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="com.aptana.terminal.views.terminal:135c3421f28" appearance="2" expanded="2">
+<page content="com.aptana.terminal.views.terminal:stylesheets" label="samar@client89: ~/blog/app/assets/stylesheets"/>
+<page content="com.aptana.terminal.views.terminal:135c3421f28" label="samar@client89: ~/blog/app/assets/stylesheets"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1c5809e" ratio="0.75" ratioLeft="468" ratioRight="156" relationship="4" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="com.aptana.samples.ui.SamplesView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/samar/blog/app/views/posts/show.html.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" uri="file:/home/samar/blog/app/views/layouts/application.html.erb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/samar/blog/app/models/user.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/samar/blog/config/initializers/devise.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/samar/blog/app/controllers/posts_controller.rb"/>
+<editor factoryID="com.aptana.terminal.TerminalElementFactory" id="com.aptana.terminal.TerminalEditor">
+<title>Terminal</title>
+<workingDirectory/>
+</editor>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/samar/blog/app/models/tag.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/samar/blog/db/migrate/20120223061247_create_posts.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/samar/blog/db/migrate/20120228120244_create_post_tags.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/samar/blog/db/migrate/20120223071253_create_tags.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/samar/blog/app/models/user.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/samar/blog/app/models/tag.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/samar/blog/app/models/post.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" uri="file:/home/samar/blog/app/controllers/posts_controller.rb"/>
+</editors>
+<item historyLabel="posts_controller.rb" index="4">
+<position info="not_deleted" x="2241" y="0"/>
+</item>
+<item historyLabel="user.rb" index="2">
+<position info="not_deleted" x="265" y="0"/>
+</item>
+<item historyLabel="show.html.erb" index="0">
+<position/>
+</item>
+<item historyLabel="show.html.erb" index="0">
+<position/>
+</item>
+<item historyLabel="posts_controller.rb" index="4">
+<position info="not_deleted" x="2241" y="0"/>
+</item>
+<item historyLabel="devise.rb" index="3">
+<position info="not_deleted" x="8873" y="0"/>
+</item>
+<item historyLabel="application.html.erb" index="1">
+<position info="not_deleted" x="15" y="0"/>
+</item>
+<item historyLabel="show.html.erb" index="0">
+<position info="not_deleted" x="463" y="0"/>
+</item>
+<item historyLabel="posts_controller.rb" index="4">
+<position info="not_deleted" x="821" y="0"/>
+</item>
+<item historyLabel="show.html.erb" index="0">
+<position info="not_deleted" x="505" y="0"/>
+</item>
+<item historyLabel="show.html.erb" index="0">
+<position info="not_deleted" x="260" y="0"/>
+</item>
+<item historyLabel="show.html.erb" index="0">
+<position info="not_deleted" x="259" y="0"/>
+</item>
+<item historyLabel="show.html.erb" index="0">
+<position info="not_deleted" x="203" y="294"/>
+</item>
+<item historyLabel="posts_controller.rb" index="4">
+<position/>
+</item>
+<item historyLabel="show.html.erb" index="0">
+<position info="not_deleted" x="384" y="0"/>
+</item>
+<item historyLabel="posts_controller.rb" index="4">
+<position/>
+</item>
+<item historyLabel="Terminal" index="5"/>
+<item historyLabel="posts_controller.rb" index="4">
+<position/>
+</item>
+<item historyLabel="posts_controller.rb" index="4">
+<position info="not_deleted" x="337" y="0"/>
+</item>
+<item historyLabel="show.html.erb" index="0">
+<position info="not_deleted" x="384" y="0"/>
+</item>
+<item historyLabel="posts_controller.rb" index="4">
+<position info="not_deleted" x="337" y="0"/>
+</item>
+<item historyLabel="posts_controller.rb" index="4">
+<position info="not_deleted" x="589" y="0"/>
+</item>
+<item historyLabel="user.rb" index="2">
+<position info="not_deleted" x="265" y="0"/>
+</item>
+<item historyLabel="tag.rb" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="tag.rb" index="6">
+<position info="not_deleted" x="30" y="0"/>
+</item>
+<item historyLabel="20120223061247_create_posts.rb" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="20120228120244_create_post_tags.rb" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="20120223061247_create_posts.rb" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="20120223071253_create_tags.rb" index="9">
+<position info="not_deleted" x="133" y="0"/>
+</item>
+<item historyLabel="20120223061247_create_posts.rb" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="20120228120244_create_post_tags.rb" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="user.rb" index="10">
+<position info="not_deleted" x="265" y="0"/>
+</item>
+<item historyLabel="tag.rb" index="11">
+<position info="not_deleted" x="30" y="0"/>
+</item>
+<item historyLabel="20120223061247_create_posts.rb" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="20120223071253_create_tags.rb" index="9">
+<position info="not_deleted" x="133" y="0"/>
+</item>
+<item historyLabel="tag.rb" index="11">
+<position info="not_deleted" x="59" y="0"/>
+</item>
+<item historyLabel="post.rb" index="12">
+<position info="not_deleted" x="228" y="0"/>
+</item>
+<item historyLabel="tag.rb" index="11">
+<position info="not_deleted" x="59" y="0"/>
+</item>
+<item historyLabel="post.rb" index="12">
+<position info="not_deleted" x="228" y="0"/>
+</item>
+<item historyLabel="post.rb" index="12">
+<position info="not_deleted" x="236" y="0"/>
+</item>
+<item historyLabel="20120223061247_create_posts.rb" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="20120223071253_create_tags.rb" index="9">
+<position info="not_deleted" x="133" y="0"/>
+</item>
+<item historyLabel="tag.rb" index="11">
+<position info="not_deleted" x="59" y="0"/>
+</item>
+<item historyLabel="20120228120244_create_post_tags.rb" index="8">
+<position info="not_deleted" x="229" y="0"/>
+</item>
+<item historyLabel="tag.rb" index="11">
+<position info="not_deleted" x="59" y="0"/>
+</item>
+<item historyLabel="user.rb" index="10">
+<position info="not_deleted" x="265" y="0"/>
+</item>
+<item historyLabel="posts_controller.rb" index="13">
+<position info="not_deleted" x="224" y="0"/>
+</item>
+<item historyLabel="posts_controller.rb" index="13">
+<position info="not_deleted" x="279" y="0"/>
+</item>
+<item historyLabel="posts_controller.rb" index="13">
+<position info="not_deleted" x="279" y="0"/>
+</item>
+<item active="true" historyLabel="posts_controller.rb" index="13">
+<position info="not_deleted" x="285" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+</trimArea>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="post.rb" tooltip="/home/samar/blog/app/models/post.rb">
+<persistable uri="file:/home/samar/blog/app/models/post.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="20120228120244_create_post_tags.rb" tooltip="/home/samar/blog/db/migrate/20120228120244_create_post_tags.rb">
+<persistable uri="file:/home/samar/blog/db/migrate/20120228120244_create_post_tags.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="20120223061247_create_posts.rb" tooltip="/home/samar/blog/db/migrate/20120223061247_create_posts.rb">
+<persistable uri="file:/home/samar/blog/db/migrate/20120223061247_create_posts.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="20120223071253_create_tags.rb" tooltip="/home/samar/blog/db/migrate/20120223071253_create_tags.rb">
+<persistable uri="file:/home/samar/blog/db/migrate/20120223071253_create_tags.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="tag.rb" tooltip="/home/samar/blog/app/models/tag.rb">
+<persistable uri="file:/home/samar/blog/app/models/tag.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="user.rb" tooltip="/home/samar/blog/app/models/user.rb">
+<persistable uri="file:/home/samar/blog/app/models/user.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="devise.rb" tooltip="/home/samar/blog/config/initializers/devise.rb">
+<persistable uri="file:/home/samar/blog/config/initializers/devise.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="application_controller.rb" tooltip="/home/samar/blog/app/controllers/application_controller.rb">
+<persistable uri="file:/home/samar/blog/app/controllers/application_controller.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="application.html.erb" tooltip="/home/samar/blog/app/views/layouts/application.html.erb">
+<persistable uri="file:/home/samar/blog/app/views/layouts/application.html.erb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="development.rb" tooltip="/home/samar/blog/config/environments/development.rb">
+<persistable uri="file:/home/samar/blog/config/environments/development.rb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.ruby" name="Gemfile" tooltip="/home/samar/blog/Gemfile">
+<persistable uri="file:/home/samar/blog/Gemfile"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="_form.html.erb" tooltip="/home/samar/blog/app/views/tags/_form.html.erb">
+<persistable uri="file:/home/samar/blog/app/views/tags/_form.html.erb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="_form.html.erb" tooltip="/home/samar/blog/app/views/posts/_form.html.erb">
+<persistable uri="file:/home/samar/blog/app/views/posts/_form.html.erb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="edit.html.erb" tooltip="/home/samar/blog/app/views/posts/edit.html.erb">
+<persistable uri="file:/home/samar/blog/app/views/posts/edit.html.erb"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.erb.html" name="new.html.erb" tooltip="/home/samar/blog/app/views/posts/new.html.erb">
+<persistable uri="file:/home/samar/blog/app/views/posts/new.html.erb"/>
+</file>
+</mruList>
+</workbench>
