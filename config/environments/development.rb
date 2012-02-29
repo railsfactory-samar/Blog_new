@@ -1,4 +1,6 @@
 Blog::Application.configure do
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+
   # Settings specified here will take precedence over those in config/application.rb
 
   # In the development environment your application's code is reloaded on
@@ -34,4 +36,18 @@ Blog::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  config.action_mailer.delivery_method = :smtp
+
+  config.action_mailer.smtp_settings = {
+    :enable_starttls_auto  => true,
+    :address                      => 'smtp.gmail.com',
+    :port                             => 587,
+    :tls                                => true,
+    :domain                        => 'http://www.google.com/', #you can also use google.com
+    :authentication             => :plain,
+    :user_name                  =>'er.samarmishra@gmail.com',
+    :password                     => '5622901bsc'
+  }
 end
+

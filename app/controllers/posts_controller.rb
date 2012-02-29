@@ -1,9 +1,14 @@
 class PostsController < ApplicationController
-   http_basic_authenticate_with :name =>  "samar", :password => "123456", :except => [:index, :show]
+  http_basic_authenticate_with :name =>  "samar", :password => "123456", :except => [:index, :show]
   # GET /posts
   # GET /posts.json
   def index
-    @posts = Post.all
+
+    if params && params[:name]
+      @posts = Tag.find_by_name(params[:name]).posts
+    else
+      @posts = Post.all
+    end
 
     respond_to do |format|
       format.html # index.html.erb
@@ -15,7 +20,7 @@ class PostsController < ApplicationController
   # GET /posts/1.json
   def show
     @post = Post.find(params[:id])
-
+    @tag_counts = Tag.count(:group => :name, :order => 'updated_at DESC', :limit => 10)
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @post }
@@ -80,5 +85,6 @@ class PostsController < ApplicationController
       format.html { redirect_to posts_url }
       format.json { head :no_content }
     end
+
   end
 end
