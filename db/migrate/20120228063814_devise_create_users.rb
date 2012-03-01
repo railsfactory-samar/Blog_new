@@ -1,4 +1,13 @@
 class DeviseCreateUsers < ActiveRecord::Migration
+  # Rails.root/db/migrations/2011011620391_devise_create_users.rb
+def self.up
+  create_table(:users) do |t|
+    t.confirmable
+  end
+
+  add_index :users, :confirmation_token,   :unique => true
+
+  
   def change
     create_table(:users) do |t|
       ## Database authenticatable
@@ -23,10 +32,10 @@ class DeviseCreateUsers < ActiveRecord::Migration
       # t.string :password_salt
 
       ## Confirmable
-      # t.string   :confirmation_token
-      # t.datetime :confirmed_at
-      # t.datetime :confirmation_sent_at
-      # t.string   :unconfirmed_email # Only if using reconfirmable
+       #t.string   :confirmation_token
+       #t.datetime :confirmed_at
+       #t.datetime :confirmation_sent_at
+       #t.string   :unconfirmed_email # Only if using reconfirmable
 
       ## Lockable
       # t.integer  :failed_attempts, :default => 0 # Only if lock strategy is :failed_attempts
