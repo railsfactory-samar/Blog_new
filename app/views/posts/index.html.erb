@@ -1,23 +1,64 @@
 <h1>Listing posts</h1>
-<table border="2" bgcolor="#DAEEEA" >
+<table border="1" bgcolor="#DAEEEA" >
 	<tr>
+		<th>Select</th>
 		<th>Name</th>
 		<th>Title</th>
 		<th>Content</th>
-		<th></th>
-		<th></th>
-		<th></th>
+		
 	</tr>
 	<% @posts.each do |post| %>
 	<tr>
+		<td><%= radio_button_tag(:Select, post.id) %></td>
 		<td><%= post.name %></td>
 		<td><%= post.title %></td>
 		<td><%= post.content %></td>
-		<td><%= link_to 'Show', post %></td>
-		<td><%= link_to 'Edit', edit_post_path(post) %></td>
-		<td><%= link_to 'Destroy', post, confirm: 'Are you sure?', method: :delete %></td>
+		
 	</tr>
+	
 	<% end %>
+</table><br/>
+
+<table>
+<tr>
+   <td><input type="button" id="show" value="Show" onclick="show();"/></td>
+   <td><input type="button" id="edit" value="Edit" onclick="edit();"></td>
+   <td><input type="button" id="delete" value="Destroy" onclick="delete_data();"></td>
+
+</tr>
 </table>
+
 <br />
-<%= link_to 'New Post', new_post_path %> 
+<%= button_to 'New Post', new_post_path %> 
+<script>
+function show()
+{
+
+	show_id=$("input:radio[name=Select]:checked").val();
+	if(!show_id)
+	{
+	alert('Please select any post')
+	return false;
+	}
+	window.location.href='/posts/'+show_id;
+}
+
+function edit()
+{
+	edit_id=$("input:radio[name=Select]:checked").val();
+	window.location.href='/posts/edit/'+edit_id;
+}
+
+function delete_data()
+{	
+	delete_id=$("input:radio[name=Select]:checked").val();
+	if(!delete_id)
+	{
+		alert('Please select any post')
+		return false;
+	}
+	window.location.href='/posts/destroy/'+delete_id;
+}
+
+</Script>
+
