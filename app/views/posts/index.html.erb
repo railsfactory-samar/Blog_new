@@ -46,6 +46,11 @@ function show()
 function edit()
 {
 	edit_id=$("input:radio[name=Select]:checked").val();
+	if(!edit_id)
+	{
+	alert('Please select any post')
+	return false;
+	}
 	window.location.href='/posts/edit/'+edit_id;
 }
 
