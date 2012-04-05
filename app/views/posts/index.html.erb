@@ -1,69 +1,104 @@
-<h1>Listing posts</h1>
-<table border="1" bgcolor="#DAEEEA" >
-	<tr>
-		<th>Select</th>
-		<th>Name</th>
-		<th>Title</th>
-		<th>Content</th>
-		
-	</tr>
-	<% @posts.each do |post| %>
-	<tr>
-		<td><%= radio_button_tag(:Select, post.id) %></td>
-		<td><%= post.name %></td>
-		<td><%= post.title %></td>
-		<td><%= post.content %></td>
-		
-	</tr>
-	
+              <h3 class="art-postheader">
+                <img src="/images/postheadericon.png" width="22" height="21" alt="" />My Page
+                                </h3>
+                <div class="cleared"></div>
+                                <div class="art-postcontent">
+<p>See my profile here...</p>
+<p><img src="/images/preview.jpg" alt="an image" style="float:left" /><div><b><u>Samar Kumar Mishra
+Software Engineer at Sedin Technologies Pvt. Ltd., Chennai</div><br>
+<div>samarmishra@rocketmail.com<br>
+</u></b></div></p>
+<h3>Summary:</h3>
+<p>
+<div>"To work for the company at your optimum limit for the betterment of self and the company"</div>
+<h3>Experience</h3>
+<div>Software Engineer at Sedin Technologies Pvt. Ltd., Chennai
+December 2011 - Present (5 months)
+Trainee Engineer at Gowdanar Technologies Pvt Ltd.
+September 2011 - December 2011 (4 months)</div><br>
+<h3>Languages</h3>
+<p><div>Hindi <div></p> &nbsp;&nbsp;  (Full professional proficiency)
+<p><div>English  <div></p> &nbsp;&nbsp;  (Full professional proficiency)
+<p><div>Bengali <div></p> &nbsp;&nbsp;  (Limited working proficiency)
+
+</p>
+<p>Skills & Expertise
+C
+C++
+Microsoft Office<br>
+Linux<br>
+Ruby on Rails<br>
+<h3>Education</h3>
+Rajiv Gandhi Prodyogiki Vishwavidyalaya
+Bachelor of Engineering (B.E.), Computer Science, 2007 - 2011
+Bokaro Ispat Senior Secondary School - 9/E , Bokaro
+Intermediate, PCM, 2005 - 2007 
+<h3>Interests</h3>
+New technology,Programming,Sketching
+ 
+
+                </div>
+                <div class="cleared"></div>
+                </div>
+
+		<div class="cleared"></div>
+    </div>
+</div>
+
+                      <div class="cleared"></div>
+                    </div>
+                    <div class="art-layout-cell art-sidebar1">
+<div class="art-block">
+    <div class="art-block-body">
+                <div class="art-blockheader">
+                    <div class="l"></div>
+                    <div class="r"></div>
+                    <h3 class="t">Latest Posts</h3>
+                </div>
+                <div class="art-blockcontent">
+                    <div class="art-blockcontent-body">
+										<% unless @posts.nil? %>
+                <p><% @posts.each do |post| %>
+
+	<div class="postname"><a>Name:-<%= post.name %></div></br></a>
+		<div class="post_title">Title:-<%= post.title %></div></br>
+		<div class="postcontent">Content:-<%= post.content %></div></br>
 	<% end %>
-</table><br/>
+	<% end %>
+	</br>
+	<%= link_to 'New Post', new_post_path %></p>
+<p>Want to Post Your comments and tags just click here!</p>                
+                                		<div class="cleared"></div>
+                    </div>
+                </div>
+		<div class="cleared"></div>
+    </div>
+</div>
 
-<table>
-<tr>
-   <td><input type="button" id="show" value="Show" onclick="show();"/></td>
-   <td><input type="button" id="edit" value="Edit" onclick="edit();"></td>
-   <td><input type="button" id="delete" value="Destroy" onclick="delete_data();"></td>
+                      <div class="cleared"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="cleared"></div>
+            <div class="art-footer">
+                <div class="art-footer-t"></div>
+                <div class="art-footer-l"></div>
+                <div class="art-footer-b"></div>
+                <div class="art-footer-r"></div>
+                <div class="art-footer-body">
+                    <a href="#" class="art-rss-tag-icon" title="RSS"></a>
+                            <div class="art-footer-text">
+                                <p><a href="/users/sign_up">Sign Up</a> | <a href="/users/sign_in">Sign In</a> <!-- |<a href="#">Link3</a></p>--><p>Copyright © 2012. All Rights Reserved.</p>
+                                                            </div>
+                    <div class="cleared"></div>
+                </div>
+            </div>
+    		<div class="cleared"></div>
+        </div>
+    </div>
+    <div class="cleared"></div>
+    <p class="art-page-footer"><a href="http://www.2createawebsite.com/artisteer">Website Template created with Artisteer</a>.</p>
+</div>
 
-</tr>
-</table>
-
-<br />
-<%= button_to 'New Post', new_post_path %> 
-<script>
-function show()
-{
-
-	show_id=$("input:radio[name=Select]:checked").val();
-	if(!show_id)
-	{
-	alert('Please select any post')
-	return false;
-	}
-	window.location.href='/posts/'+show_id;
-}
-
-function edit()
-{
-	edit_id=$("input:radio[name=Select]:checked").val();
-	if(!edit_id)
-	{
-	alert('Please select any post')
-	return false;
-	}
-	window.location.href='/posts/edit/'+edit_id;
-}
-
-function delete_data()
-{	
-	delete_id=$("input:radio[name=Select]:checked").val();
-	if(!delete_id)
-	{
-		alert('Please select any post')
-		return false;
-	}
-	window.location.href='/posts/destroy/'+delete_id;
-}
-
-</Script>
-
+</body>
+</html>

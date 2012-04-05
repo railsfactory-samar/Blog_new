@@ -1,4 +1,12 @@
 Blog::Application.routes.draw do
+  get "info/home"
+
+  get "info/about_me"
+
+  get "info/projects"
+
+  get "info/contact_me"
+
   devise_for :users
 
 resources :posts do

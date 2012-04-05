@@ -1,34 +1,34 @@
-<p id="notice">
-	<%= notice %>
-</p>
+<p id="notice"><%= notice %></p>
+ 
 <p>
-	<b>Name:</b>
-	<%= @post.name %>
+  <b>Name:</b>
+  <%= @post.name %>
 </p>
+ 
 <p>
-	<b>Title:</b>
-	<%= @post.title %>
+  <b>Title:</b>
+  <%= @post.title %>
 </p>
+ 
 <p>
-	<b>Content:</b>
-	<%= @post.content %>
+  <b>Content:</b>
+  <%= @post.content %>
 </p>
-<p>
-	<b>Tags:</b>
-	<%= join_tags(@post) %>
-	<br/>
-	<%unless @tag_counts.nil?%>
-	<% @tag_counts.each do |tag_name, tag_count| %>
-	<tr>
-		<td><%= link_to(tag_name, posts_path(:name => tag_name)) %></td>
-		<td>(<%= tag_count%>)</td>
-	</tr>
+  
+	<p>
+  <b>Tags:</b>
+	<% @post.tag_list.each do |tag|%>
+  <%= link_to(tag, posts_url(:tag => tag))%>
 	<% end %>
-	<%end%>
 </p>
+	
 <h2>Comments</h2>
-<%= render @post.comments %> <h2>Add a comment:</h2>
+<%= render @post.comments %>
+ 
+<h2>Add a comment:</h2>
 <%= render "comments/form" %>
-
+ 
+<br />
+ 
 <%= link_to 'Edit Post', edit_post_path(@post) %> |
 <%= link_to 'Back to Posts', posts_path %> |
