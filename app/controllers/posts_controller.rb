@@ -3,16 +3,15 @@ class PostsController < ApplicationController
   # GET /posts
   # GET /posts.json
   def index
-
-    if params && params[:name]
-      @posts = Tag.find_by_name(params[:name]).posts
-    else
-      @posts = Post.all
+    if(params[:tag].nil?)
+      @posts = Post.all 
+    else 
+      @posts = Post.tagged_with(params[:tag]) 
     end
 
     respond_to do |format|
       format.html # index.html.erb
-      format.json { render json: @posts }
+      format.xml  { render :xml => @posts }
     end
   end
 
@@ -20,7 +19,6 @@ class PostsController < ApplicationController
   # GET /posts/1.json
   def show
     @post = Post.find(params[:id])
-    @tag_counts = Tag.count(:group => :name, :order => 'updated_at DESC', :limit => 10)
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @post }
@@ -31,8 +29,7 @@ class PostsController < ApplicationController
   # GET /posts/new.json
   def new
     @post = Post.new
-
-    respond_to do |format|
+     respond_to do |format|
       format.html # new.html.erb
       format.json { render json: @post }
     end
