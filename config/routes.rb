@@ -1,12 +1,15 @@
 Blog::Application.routes.draw do
   match "/home" => "info#home"
   #get "info/home"
+  match "/about_me" => "info#about_me"
+    match "/projects" => "info#projects"
+      match "/contact_me" => "info#contact_me"
+      
+  #~ get "info/about_me"
 
-  get "info/about_me"
+  #~ get "info/projects"
 
-  get "info/projects"
-
-  get "info/contact_me"
+  #~ get "info/contact_me"
 
   devise_for :users
 
